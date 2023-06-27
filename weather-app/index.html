@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <form>
+            <input id="city" type="text" value="" placeholder="Enter the City">
+        </form>
+    </nav>
+    <div class="weather-box">
+        <img id="icon" src="images\weather-app.png">
+        <div  class="elements"id="city-name"></div>
+        <div class="elements">
+            Temperature: <span id="temperature"></span>&#8451
+        </div>
+        <div class="elements">
+            Pressure: <span id="pressure"></span>bar
+        </div>
+        <div class="elements">
+            Precipitation: <span id="precip"></span>%
+        </div>
+        <div class="elements">
+            CloudCover: <span id="cloudcover"></span>%
+        </div>
+        <div class="elements">
+            Humidity: <span id="humidity"></span>%
+        </div>
+        <div class="elements" id="description"></div>
+        <button id="submit" type="submit">Get Info</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
